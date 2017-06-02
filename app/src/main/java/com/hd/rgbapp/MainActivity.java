@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         g= data.getInt("g", 0);
         b= data.getInt("b",0);
         d.setBackgroundColor(Color.rgb(r,g,b));
-        o.setText("RGB VALues: R:"+r+"\tG:"+g+"\tB:"+b);
+        o.setText("RGB VALUES: R:"+r+"\tG:"+g+"\tB:"+b);
 
 
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (v.getId()==R.id.button4)
         {   r=0; g=0; b=0; }
         d.setBackgroundColor(Color.rgb(r,g,b));
-        o.setText("RGB VALues: R:"+r+"\tG:"+g+"\tB:"+b);
+        o.setText("RGB VALUES: R:"+r+"\tG:"+g+"\tB:"+b);
 
     }
 
